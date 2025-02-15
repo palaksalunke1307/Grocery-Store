@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery-Store</title>
 </head>
+
 <body>
     <!--Code for font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,15 +26,30 @@
         <a href="#blogs">Blogs</a>
     </nav>
     <div class="icons">
-    <div class="fa fa-bars" id="menu-btn"></div>
-    <div class="fa fa-search" id="search-btn"></div>
-    <div class="fa fa-shopping-cart" id="cart-btn"></div>
-    <div class="fa fa-user" id="user-btn"></div>
- </div>
- <form class="search-form">
-    <input type="search" id="search-box" placeholder="Search Here">
-    <label for="search-box" class=" fa fa-search"></label>
- </form>
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+    </div>
+    <form class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here">
+        <label for="search-box" class=" fa fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <image src=""></image>
+        </div>
+    </div>
+    <form action="#" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="Your email" class="box">
+        <input type="password" placeholder="Your password" class="box">
+        <p>Forgot your password <a href="#">click here</a></p>
+        <p>Don't have an Account<a href="#">Create Now</a></p>
+        <input type="submit" value="Login Now" class="btn">
+    </form>
 </header>
 <script src="script.js"></script>
+
 </html>
