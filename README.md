@@ -9,9 +9,3 @@ The Grocery store website is an online shopping platform where users can browse 
 3) Shopping cart & order management
 4) Payment & Delivery System
 5) Admin panel for managing products
-@media(max-width:991px){
-
-   html{
-      font-size:55%;
-      }
- }
