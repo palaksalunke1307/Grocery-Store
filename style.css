@@ -452,9 +452,9 @@ section {
 /* Css code for Categories section */
 
 .categories .box-container {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(25, 1fr));
-   gap: 1.5rem;
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+   gap: 1rem;
 }
 
 .categories .box-container .box {
@@ -475,6 +475,7 @@ section {
 .categories .box-container .box img{
    margin:1rem 0;
    height:15rem;
+  
 }
 .categories .box-container .box h3{
    font-size:2rem;
@@ -482,6 +483,12 @@ section {
    font-weight:bolder;
    line-height:1.8rem;
    padding:1rem;
+}
+.categories .box-container .box p{
+   font-size:1.7rem;
+   padding:1rem 0;
+   line-height:1.8;
+   color:var(--light-color);
 }
 /*media quries*/
 @media (max-width:991px) {
