@@ -1,9 +1,9 @@
 # Grocery-Store
 <br>
-# About the project
+<h3>About the project</h3>
 The Grocery store website is an online shopping platform where users can browse groceries. Add them to the cart and place orders easily. It provides a user-friendly experience for customers and an admin panel for managing products and orders.
 <br>
-# Features
+<h3> Features</h3>
 <ol type="1">
 <li>Responsive design</li>
 <li>Home page with categories</li>
