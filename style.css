@@ -236,31 +236,30 @@ body {
 
 .header .shopping-cart
  {
-   border: 1px solid black;
+   border: .2rem solid black;
    position: absolute;
    top: 110%;
-   right: -110%;
+   right:-110%;
    padding: 1rem;
    border-radius: .5rem;
    box-shadow: var(--box-shadow);
-   width: 37rem;
+   width: 35rem;
    background: white;
-   transition: right .4s linear;
+   
 }
-
-.header .shopping-cart .active {
+.shopping-cart .active {
    right: 2rem;
-  
+   transition: .4s linear;
 }
 
 .header .shopping-cart .box {
-   border: 1px solid blue;
+   
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 1rem;
    position: relative;
-   margin: 1rem;
+   margin: 1rem 0;
 }
 
 .header .shopping-cart .box img {
@@ -303,6 +302,13 @@ body {
    text-align: center;
    margin: .1rem;
 }
+.header .shopping-cart .total {
+   font-size: 2.5rem;
+   padding: 1rem 0;
+   text-align: center;
+   color: var(--black);
+}
+
 
 /*Css Code for Home Section*/
 section {
@@ -366,12 +372,7 @@ section {
    line-height: 1.8;
 }
 
-.header .shopping-cart .total {
-   font-size: 2.5rem;
-   padding: 1rem 0;
-   text-align: center;
-   color: var(--black);
-}
+
 
 /* Css code for Features */
 .features .box-container {
